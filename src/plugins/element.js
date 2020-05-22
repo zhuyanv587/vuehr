@@ -12,9 +12,24 @@ import {
   Breadcrumb, BreadcrumbItem,
   Tabs, TabPane,
   Table, TableColumn, Dialog, Tag,
-  Switch,Option,Select
+  Switch,Option,Select,
+  Collapse, CollapseItem, Card,
+  Tree, Popover,
+  Loading, Image,
+  Pagination, Upload,Col,Row
 } from 'element-ui'
 
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Upload);
+Vue.use(Pagination);
+Vue.use(Image);
+Vue.use(Loading.directive);
+Vue.use(Popover)
+Vue.use(Tree)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Card)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Switch)

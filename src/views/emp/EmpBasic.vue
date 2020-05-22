@@ -7,9 +7,6 @@
 <script>
 export default {
   name: 'EmpBasic',
-  data () {
-    return {}
-  }
 }
 </script>
 

@@ -28,6 +28,7 @@ axios.interceptors.response.use(success => {
   }
 })
 
+// post请求的处理
 let base = ''
 export const postKeyValueRequest = (url, params) => {
   return axios({
@@ -48,7 +49,7 @@ export const postKeyValueRequest = (url, params) => {
   })
 }
 
-// 传递 json数据的 post请求
+// 传递json数据的post请求
 export const postRequest = (url, params) => {
   return axios({
     method: 'post',
